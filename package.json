@@ -1,6 +1,6 @@
 {
   "name": "node-mcleaks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An unofficial node wrapper for the official MCLeaks API",
   "main": "index.js",
   "scripts": {
