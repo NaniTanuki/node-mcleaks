@@ -1,0 +1,20 @@
+{
+  "name": "node-mcleaks",
+  "version": "1.0.0",
+  "description": "An unofficial node wrapper for the official MCLeaks API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "mcleaks",
+    "authentication"
+  ],
+  "author": "NaniTanuki",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "request": "^2.81.0"
+  }
+}
