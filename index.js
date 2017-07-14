@@ -55,6 +55,9 @@ Client.redeem = function(options, cb) {
     }
 
     request(options, (err, response, body) => {
+        if(!err && !body.success) {
+            err = new Error(`MCLeaks responded '${body.errorMessage}'`)
+        }
         cb(err, body)
     })
 }
@@ -84,6 +87,9 @@ Client.join = function(options, cb) {
     }
 
     request(options, (err, response, body) => {
+        if(!err && !body.success) {
+            err = new Error(`MCLeaks responded '${body.errorMessage}'`)
+        }
         cb(err, body)
     })
 }
