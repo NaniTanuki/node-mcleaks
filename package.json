@@ -1,6 +1,6 @@
 {
   "name": "node-mcleaks",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An unofficial node wrapper for the official MCLeaks API",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "mcleaks",
     "authentication"
   ],
+  "repository":{
+    "type": "git",
+    "url": "git@github.com:NaniTanuki/node-mcleaks.git"
+  },
   "author": "NaniTanuki",
   "license": "MIT",
   "dependencies": {

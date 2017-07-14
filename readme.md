@@ -8,7 +8,7 @@ const mcleaks = require('node-mcleaks')
 
 // Redeem a token:
 mcleaks.redeem({
-	token: 'tjqfv1rfbOChcllP' // get the token from mcleaks
+	token: 'GFUGuKqxCDHjdNAz' // get the token from mcleaks
 }, (err, data) => {
 	if(err) throw err
     let accdata = data.result // Tokens expire after 15 minutes so save the session somehow
