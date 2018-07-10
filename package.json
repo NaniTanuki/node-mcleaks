@@ -1,24 +1,56 @@
 {
-  "name": "node-mcleaks",
-  "version": "1.0.3",
-  "description": "An unofficial node wrapper for the official MCLeaks API",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "node-mcleaks",
+  "_id": "node-mcleaks@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-zJlVz1/2megVCCdhUvYvCCmBYlk=",
+  "_location": "/node-mcleaks",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "node-mcleaks",
+    "name": "node-mcleaks",
+    "escapedName": "node-mcleaks",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-mcleaks/-/node-mcleaks-1.0.3.tgz",
+  "_shasum": "cc9955cf5ff699e81508276152f62f0829816259",
+  "_spec": "node-mcleaks",
+  "_where": "/Users/funniray/Projects/mcbmcleaks",
+  "author": {
+    "name": "NaniTanuki"
+  },
+  "bugs": {
+    "url": "https://github.com/NaniTanuki/node-mcleaks/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "crypto": "0.0.3",
+    "request": "^2.81.0"
+  },
+  "deprecated": false,
+  "description": "An unofficial node wrapper for the official MCLeaks API",
+  "homepage": "https://github.com/NaniTanuki/node-mcleaks#readme",
   "keywords": [
     "minecraft",
     "mcleaks",
     "authentication"
   ],
-  "repository":{
-    "type": "git",
-    "url": "git@github.com:NaniTanuki/node-mcleaks.git"
-  },
-  "author": "NaniTanuki",
   "license": "MIT",
-  "dependencies": {
-    "crypto": "0.0.3",
-    "request": "^2.81.0"
-  }
+  "main": "index.js",
+  "name": "node-mcleaks",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NaniTanuki/node-mcleaks.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.3"
 }
